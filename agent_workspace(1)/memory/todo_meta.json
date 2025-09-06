@@ -1,0 +1,41 @@
+{
+  "todos": {
+    "Coordinator": {
+      "1": {
+        "id": "1",
+        "content": "Analyse der Befundvorlage und Systemanforderungen",
+        "details": "✅ Befundvorlage analysiert - umfasst Patientenangaben, Diagnose, Anamnese, Beschwerden, Inspektion, Palpation, Schmerzskala, Therapieziele und Verlaufsdokumentation",
+        "status": "completed",
+        "priority": "high"
+      },
+      "2": {
+        "id": "2",
+        "content": "Systemdesign und Datenbankarchitektur erstellen",
+        "details": "Detaillierte Planung der Datenbankstruktur für alle 4 Module:\n- Athletiktrainer-Modul: CMJ-Tests, Leistungsdiagnostik, Risikoprofile\n- Physiotherapie-Modul: Digitalisierung der Befundvorlage, Patientenakte, Termine\n- Ärzte-Modul: Medizinische Akten, Dokument-Upload, Behandlungshistorie\n- Befund-Digitalisierung: OCR/Formularerkennung, Datenextraktion",
+        "status": "completed",
+        "priority": "high"
+      },
+      "3": {
+        "id": "3",
+        "content": "Supabase Backend Setup und Authentifizierung konfigurieren",
+        "details": "- Supabase-Projekt initialisieren\n- Rollenbasierte Authentifizierung (Athletiktrainer, Physiotherapeut, Arzt, Admin)\n- DSGVO-konforme Datenverschlüsselung\n- Database Schema und RLS (Row Level Security) Policies",
+        "status": "completed",
+        "priority": "high"
+      },
+      "4": {
+        "id": "4",
+        "content": "Vollständige Fullstack-Webanwendung entwickeln",
+        "details": "Entwicklung aller 4 Hauptmodule:\n\n**ATHLETIKTRAINER-MODUL:**\n- CMJ-Analyse Dashboard (Sprunghöhe, Flugzeit, Bodenkontaktzeit, Balance)\n- Präparationsprogramm-Verwaltung\n- Leistungsdiagnostik und Verletzungsprävention\n- Risikoprofile und automatische Auswertung\n\n**PHYSIOTHERAPIE-MODUL:**\n- Digitale Patientenakte basierend auf analysierter Befundvorlage\n- Anwesenheitsdokumentation\n- KOOS-Score Integration\n- Behandlungsverlauf und Terminverwaltung\n\n**ÄRZTE-MODUL:**\n- Medizinische Akte mit Behandlungshistorie\n- Upload-System für MRT, Röntgen, Befunde\n- Kategorisierung nach Verletzungstyp\n- Schnittstelle zu externen Einrichtungen\n\n**BEFUND-DIGITALISIERUNG:**\n- OCR für gescannte Befundbögen\n- Intelligente Formularerkennung\n- Automatische Datenextraktion\n- Strukturierte Dateneingabe mit Validierung\n\n**ZUSÄTZLICHE FEATURES:**\n- Responsive Design für Desktop/Mobile\n- Echtzeit-Synchronisation\n- KPI-Dashboard\n- Benachrichtigungssystem\n- Statistik-Modul für Verletzungstrends\n- Export-Funktionen",
+        "status": "completed",
+        "priority": "high"
+      },
+      "5": {
+        "id": "5",
+        "content": "Deployment und Testing der Plattform",
+        "details": "- Deployment der Webanwendung\n- Funktionstest aller Module\n- Performance-Optimierung\n- Sicherheitstests (DSGVO-Compliance)\n- Benutzerakzeptanztests",
+        "status": "pending",
+        "priority": "medium"
+      }
+    }
+  }
+}
